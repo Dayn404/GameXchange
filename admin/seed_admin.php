@@ -1,9 +1,5 @@
 <?php
-/**
- * Seed admin user into Admins table using ADMIN_EMAIL from config.php.
- * Run this once after importing the DB schema and creating the admin user.
- * Visit in browser: http://localhost/GameXchange/admin/seed_admin.php
- */
+
 require_once '../config.php';
 
 if (!defined('ADMIN_EMAIL') || empty(ADMIN_EMAIL)) {
@@ -43,3 +39,4 @@ if ($stmt->execute()) {
 }
 
 ?>
+
