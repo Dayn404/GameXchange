@@ -99,7 +99,6 @@ $late_fee_total = $late_fees->fetch_assoc()['TotalLateFees'] ?? 0;
             <div class="nav">
                 <a href="dashboard.php">Dashboard</a>
                 <a href="browse_games.php">Browse Games</a>
-                <a href="my_products.php">My Products</a>
                 <a href="my_orders.php">My Orders</a>
                 <a href="my_rentals.php">My Rentals</a>
                 <a href="../logout.php">Logout</a>
